@@ -1,0 +1,13 @@
+.windowing-container {
+  margin: auto;
+  overflow: auto;
+}
+
+.windowing-list {
+  position: relative; 
+}
+
+.item-container {
+  width: 100%;
+  position: absolute;
+}

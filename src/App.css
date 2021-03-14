@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #e9eded;
+  padding: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2rem;
+}
+
+.input-inline {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+}
+
+.input-field label {
+  text-align: left;
+  min-width: 120px;
+}
+
+.input-field input {
+  height: 32px;
+  font-size: 16px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  font-size: 20px;
+}
